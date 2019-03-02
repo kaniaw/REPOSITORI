@@ -1,0 +1,103 @@
+
+input[type=text] {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    box-sizing: border-box; 
+    margin-top: 3px; 
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    Width:30%;
+    margin:0% 20%;
+  }
+  body{
+    background-color:lightgreen;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+  #h2{
+    background-color:#45a049;
+    color: white;
+    padding:15px 40px ;
+    text-align:left;
+    width:79%;
+    height:18% ;
+    border-radius:3px;
+  }
+  
+  h2{
+    font: size 85;
+    font-family:sans-serif ;
+    text-align: center;
+  }
+
+  h2 a{
+    color: white;
+    text-decoration:none;
+  }
+  
+  h2>p  {
+    font-size: 14px;
+    font-family:serif;  
+  }
+  input[type=Text]:hover {
+    Border-color: #5e96eb; 
+  }
+  .form{
+    display: flex;
+    flex-direction:column;
+    width:350px;
+    height:560px;
+    background:#f7f4f4;
+    border-radius:5px;
+    margin:0px 200px auto;
+    padding-right:10px;
+    padding-left:3px;
+    border:1px solid lightgray ;
+    }
+    
+  .dv{
+    animation-duration: 2s;
+    animation-name: sliden;
+  }
+  @keyframes sliden{
+   from {
+          margin-right:0%;
+          width:50%;
+    }
+    to{
+      margin-right:50%;
+      width: 100%;
+    }
+  }
+  
+  .p1,.p2{
+    animation-duration: 1s;
+    animation-name: slide;
+  }
+  @keyframes slide{
+   from {
+          margin-top:0%;
+          width:100%;
+    }
+    to{
+      margin-top:5%;
+      width: 100%;
+    }
+  }
+  
+    
+    
